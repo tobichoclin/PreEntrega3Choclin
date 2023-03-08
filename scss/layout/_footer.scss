@@ -8,7 +8,7 @@
     justify-content: flex-end !important;
 }
 .icono{
-    @extend %texto30;
+    font-size: nth($fuentes, 5);
     color: $gris;
     @include mobile{
         @include texto18;
@@ -18,7 +18,7 @@
     color: $blanco;
 }
 .icono2{
-    @extend %texto30;
+    font-size: nth($fuentes, 5);
     color: $gris;
 }
 .nav-item-mio{
@@ -26,7 +26,7 @@
 }
 .derechos{
     color: $gris;
-    @extend %texto15;
+    font-size: nth($fuentes, 1);
     @include margen(20px, 300px, 0, 0);
     @include mobile{
         @include margen(20px,0,0,0);  

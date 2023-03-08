@@ -14,33 +14,33 @@
   @include margen(0, 0, 15px, 0);
 }
 .boca {
-  background-image: url(../assets/imagenes/foto_boca.jpg) !important;
+  background-image: map-get($fondoEquipos, img-boca) !important;
   @include mobile{
-    background-image: url(../assets/imagenes/boca-mobile.jpg) !important;
+    background-image: map-get($fondoEquipos, img-boca-mobile) !important;
   }
 }
 .river {
-  background-image: url(../assets/imagenes/foto_river.jpg) !important;
+  background-image: map-get($fondoEquipos, img-river) !important;
   @include mobile{
-    background-image: url(../assets/imagenes/river-mobile.jpg) !important;
+    background-image: map-get($fondoEquipos, img-river-mobile) !important;
   }
 }
 .independiente {
-  background-image: url(../assets/imagenes/foto_independiente.jpg) !important;
+  background-image: map-get($fondoEquipos, img-independiente) !important;
   @include mobile{
-    background-image: url(../assets/imagenes/independiente-mobile.jpg) !important;
+    background-image: map-get($fondoEquipos, img-independiente-mobile) !important;
   }
 }
 .racing {
-  background-image: url(../assets/imagenes/foto_racing.jpg) !important;
+  background-image: map-get($fondoEquipos, img-racing) !important;
   @include mobile{
-    background-image: url(../assets/imagenes/racing-mobile.jpg) !important;
+    background-image: map-get($fondoEquipos, img-racing-mobile) !important;
   }
 }
 .sanLorenzo {
-  background-image: url(../assets/imagenes/foto_sanLorenzo.jpg) !important;
+  background-image: map-get($fondoEquipos, img-sanLorenzo)!important;
   @include mobile{
-    background-image: url(../assets/imagenes/sanLorenzo-mobile.jpg) !important;
+    background-image: map-get($fondoEquipos, img-sanLorenzo-mobile) !important;
   }
 }
 .orden-conductores{
@@ -60,7 +60,7 @@
 .texto-conductor{
   @extend %texto2;
   line-height: 2;
-  @extend %texto18;
+  font-size: nth($fuentes, 2);
   color: $gris;
   @include mobile{
      @include centrarTexto;

@@ -12,7 +12,7 @@
     @extend %texto1;
     line-height: 2;
     color: $blanco;
-    @extend %texto30;
+    font-size: nth($fuentes, 5);
     position: relative;
     @extend %centrarTexto;
     @include mobile{

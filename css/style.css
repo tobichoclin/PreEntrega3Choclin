@@ -13,34 +13,6 @@
   text-align: center;
 }
 
-.derechos {
-  font-size: 15px;
-}
-
-.texto-conductor, .texto-qm {
-  font-size: 18px;
-}
-
-.cuadro_boton, .texto-encabezado, .texto {
-  font-size: 20px;
-}
-
-.navlink-mio {
-  font-size: 25px;
-}
-
-.texto-cf, .icono2, .icono {
-  font-size: 30px;
-}
-
-.titulo-qm, .titulo {
-  font-size: 40px;
-}
-
-#titulo-fondo {
-  font-size: 100px;
-}
-
 .titulo-qm, .cuadro_boton, .texto-cf, #titulo-fondo, .titulo, .navlink-mio, .navbar-footer-mia {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
@@ -79,6 +51,7 @@
 }
 
 .icono {
+  font-size: 30px;
   color: #636363;
 }
 @media screen and (max-width: 576px) {
@@ -92,6 +65,7 @@
 }
 
 .icono2 {
+  font-size: 30px;
   color: #636363;
 }
 
@@ -104,6 +78,7 @@
 
 .derechos {
   color: #636363;
+  font-size: 15px;
   margin-left: 0;
   margin-right: 300px;
   margin-top: 20px;
@@ -151,6 +126,7 @@
 .navlink-mio {
   color: #636363;
   text-decoration: none;
+  font-size: 25px;
 }
 @media screen and (max-width: 576px) {
   .navlink-mio {
@@ -168,6 +144,7 @@ body {
 }
 
 .titulo {
+  font-size: 40px;
   color: #636363;
 }
 @media screen and (max-width: 576px) {
@@ -179,6 +156,7 @@ body {
 
 .texto {
   line-height: 2;
+  font-size: 20px;
   padding-top: 0;
   padding-right: 20px;
   padding-bottom: 0;
@@ -229,6 +207,7 @@ body {
 
 #titulo-fondo {
   color: #f7fbfc;
+  font-size: 100px;
   position: relative;
 }
 @media screen and (max-width: 576px) {
@@ -320,6 +299,7 @@ body {
 .texto-cf {
   line-height: 2;
   color: #f7fbfc;
+  font-size: 30px;
   position: relative;
 }
 @media screen and (max-width: 576px) {
@@ -384,6 +364,7 @@ body {
 
 .texto-encabezado {
   color: #636363;
+  font-size: 20px;
   line-height: 2;
 }
 @media screen and (max-width: 576px) {
@@ -405,6 +386,7 @@ body {
   padding-bottom: 0;
   padding-left: 5px;
   background-color: #769fcd;
+  font-size: 20px;
   color: #636363;
   text-decoration: none;
 }
@@ -435,6 +417,7 @@ body {
 
 .titulo-qm {
   color: #636363;
+  font-size: 40px;
 }
 @media screen and (max-width: 576px) {
   .titulo-qm {
@@ -446,6 +429,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   line-height: 2;
   color: #636363;
+  font-size: 18px;
 }
 
 .tarjeta {
@@ -479,47 +463,47 @@ body {
 }
 
 .boca {
-  background-image: url(../assets/imagenes/foto_boca.jpg) !important;
+  background-image: url(../../assets/imagenes/foto_boca.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .boca {
-    background-image: url(../assets/imagenes/boca-mobile.jpg) !important;
+    background-image: url(../../assets/imagenes/boca-mobile.jpg) !important;
   }
 }
 
 .river {
-  background-image: url(../assets/imagenes/foto_river.jpg) !important;
+  background-image: url(../../assets/imagenes/foto_river.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .river {
-    background-image: url(../assets/imagenes/river-mobile.jpg) !important;
+    background-image: url(../../assets/imagenes/river-mobile.jpg) !important;
   }
 }
 
 .independiente {
-  background-image: url(../assets/imagenes/foto_independiente.jpg) !important;
+  background-image: url(../../assets/imagenes/foto_independiente.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .independiente {
-    background-image: url(../assets/imagenes/independiente-mobile.jpg) !important;
+    background-image: url(../../assets/imagenes/independiente-mobile.jpg) !important;
   }
 }
 
 .racing {
-  background-image: url(../assets/imagenes/foto_racing.jpg) !important;
+  background-image: url(../../assets/imagenes/foto_racing.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .racing {
-    background-image: url(../assets/imagenes/racing-mobile.jpg) !important;
+    background-image: url(../../assets/imagenes/racing-mobile.jpg) !important;
   }
 }
 
 .sanLorenzo {
-  background-image: url(../assets/imagenes/foto_sanLorenzo.jpg) !important;
+  background-image: url(../../assets/imagenes/foto_sanLorenzo.jpg) !important;
 }
 @media screen and (max-width: 576px) {
   .sanLorenzo {
-    background-image: url(../assets/imagenes/sanLorenzo-mobile.jpg) !important;
+    background-image: url(../../assets/imagenes/sanLorenzo-mobile.jpg) !important;
   }
 }
 
@@ -551,6 +535,7 @@ body {
 
 .texto-conductor {
   line-height: 2;
+  font-size: 18px;
   color: #636363;
 }
 @media screen and (max-width: 576px) {

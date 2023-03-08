@@ -4,7 +4,7 @@ body{
 }
 .titulo{
     @extend %texto1;
-    @extend %texto40;
+    font-size: nth($fuentes, 6);
     @extend %centradoHorizontal;
     color: $gris;
     @include mobile{
@@ -15,7 +15,7 @@ body{
 .texto{
     @extend %texto2;
     line-height: 2;
-    @extend %texto20;
+    font-size: nth($fuentes, 3);
     @include pad(0, 20px, 0, 60px);
     @extend %centradoHorizontal;
     color: $gris;
@@ -57,7 +57,7 @@ body{
 #titulo-fondo{
     @extend %texto1;
     color: $blanco;
-    @extend %texto100;
+    font-size: nth($fuentes, 7);
     position: relative;
     @include mobile{
         @include texto60;

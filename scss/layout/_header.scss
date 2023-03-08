@@ -15,7 +15,7 @@
     @extend %texto1;
     color: $gris;
     text-decoration: none;
-    @extend %texto25;
+    font-size: nth($fuentes, 4);
     @include mobile{
         @include texto18;
     }
